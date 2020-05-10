@@ -70,10 +70,14 @@ def set_selenium_local_session(
     err_msg = ""
 
     # set Firefox Agent to mobile agent
+    # user_agent = (
+    #     "Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 "
+    #     "(KHTML, like Gecko) FxiOS/18.1 Mobile/16B92 Safari/605.1.15"
+    # )
+    #
+    # KJ
     user_agent = (
-        "Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 "
-        "(KHTML, like Gecko) FxiOS/18.1 Mobile/16B92 Safari/605.1.15"
-    )
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0")
 
     # keep user_agent
     Settings.user_agent = user_agent
