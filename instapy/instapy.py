@@ -118,7 +118,7 @@ class InstaPy:
         want_check_browser: bool = True,
         browser_executable_path: str = None,
     ):
-        print("InstaPy KJ hacked Version: {}".format(__version__))
+        print("InstaPy KJ Version: {}".format(__version__))
         cli_args = parse_cli_args()
         username = cli_args.username or username
         password = cli_args.password or password
